@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #1D1D1D;
+    color: white;
+    font-family: "Rubik"
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+.logo{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.homepage-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.homepage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
+
+.homepage-left{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.homepage-title{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.homepage-text{
+    color:#474DFF;
+    font-size: 35px;
+}
+
+.homepage-subtext{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.homepage-right{
+    width: 50%;
+}
+.homepage-img{
+    width: 75%;
+    height: 50%;
+    margin-left: 260px;
+}
+
+
+.footer{
+    background-color: #0D0D0D;
+    width: 99%;
+    margin: 0 auto;
+    height: 18vh;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-container{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-title-container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 10px;
+}
+.footer-title{
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ 
+
+.icon-container{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.left-icon{
+    background-color: transparent;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 140px;
+    height: 28px;
+    background-color: #474DFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.invest {
+    background-color: transparent;
+    width: 90px;
+}
+
+ 
+
+.right-icon{
+    background-color: transparent;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
